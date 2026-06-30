@@ -8,6 +8,36 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#">TasteTrek</a>
+            <ul>
+                <li>Favourite</li>
+            </ul>
+        </nav>
+        <h2>We have all varieties of International food</h2>
+    </header>
+    <main>
+        <section>
+            <h3>DISCOVER SOMETHING DELICIOUS FROM TASTETREK</h3>
+            <p>Evokes a journey or adventure through various continents</p>
+            <h1>What foreign food are you craving today?</h1>
+            <input id="input-food" type="text" placeholder="e.g rice, chicken...">
+            <button id="submit-food" type="submit">Submit</button>
+        </section>
+        <section id="display-result">
+            <div id="error-message"></div>
+            <div id="result"></div>
+        </section>
+        <section id="pagination" style="display: none;">
+            <button id="prevBtn">Prev</button>
+            <span id="pageInfo">PageInfo</span>
+            <button id="nextBtn">Next</button>
+        </section>
+    </main>
+    <footer>
+        <p>TasteTrek &copy; 2026 &mdash; Powered by TheMealDB API</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
