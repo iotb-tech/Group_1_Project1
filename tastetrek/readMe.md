@@ -22,7 +22,7 @@ This project demonstrates how to consume a REST API using JavaScript and dynamic
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3
+- TailwindCSS
 - JavaScript (ES6+)
 - Fetch API
 - TheMealDB API
